@@ -1,0 +1,108 @@
+
+body {
+    background-image: url('images/background.png');
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+  }
+
+
+  h1 {
+text-align: center;
+font-size: 24pt;
+font-weight: bold ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow: 3px 3px #999999;
+  }
+  footer{
+    text-align: center;
+    background-color:  #A2B964;
+    padding: 0.5em
+  }
+#w3c{
+    text-align: right;
+}
+
+#rcorners {
+    border-radius: 12px;
+    border: 2px solid #CCCCCC;
+    padding: 1em;
+    background-color: #FFFFFF;
+    margin-left:5%;
+    margin-right: 5%;
+
+  }
+  #people{
+    margin-left: 5%;
+  }
+  #banner{
+    background-image: url("images/rbg.png");
+    background-repeat: repeat-x;
+    z-index: -1;
+    padding-bottom: 1rem;
+    
+   
+  }
+ 
+  q{
+    font-size: 13pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  dt{
+    margin-left: 15px;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top:15px;
+
+  }
+  dd{
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .publication{
+    font-style: italic;
+  }
+
+  .container {
+   background-color: #A2B964;
+   width: 100%;
+   overflow: hidden;
+   flex-wrap: wrap;  
+  }
+
+  .informations {
+    background-color: #A2B964;
+   height: end;
+   float: right;
+   
+}
+     
+.comments{
+   height: end;
+   background-color: #EEEEEE;
+  float: left;
+}
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+  }
+ 
+
+
+.column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    
+      }
+
+
+
+      
