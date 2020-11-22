@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Homework</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!---- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+ 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="style-pizza-page.css">
+<link rel="stulesheet" href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="menu-bar sticky-top">
+    <nav class="navbar navbar-expand-md ">
+            <a class="navbar-brand" href="#"> <img src="kingg.png" width="100px" height="90px"></a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#O_Nama">O nama</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Jelovnik">Jelovnik</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Kontakt">Kontakt</a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+<div class="king" id="Jelovnik">
+    <b>King Pizza</b>
+</div>
+<hr>
+<div class="row">
+
+    <div class="column left" >
+        <div class="Image">
+            <img src="https://static.skyfood.rs/uploads/photo/photo/88/web_kapricoza.jpg">
+        </div>  
+
+        <div>
+            <div class="name">
+                Capricciosa
+            </div>
+
+            <div class="ingredients">
+            Pelat, sir, šunka, šampinjoni, zelene masline, origano
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="column right" >
+        <h4>Izaberite velicinu</h4>
+        <label class="container">
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>22cm - 200,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span> 33cm - 580,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>50cm - 960,00din
+        </label>
+        <form action="/action_page.php">
+            <label for="quantity">Kolicina:</label>
+            <input type="number" id="myImput" name="quantity" min="1" max="10">
+        </form>
+            <button type="button" class="btn btn-secondary" >Naruci</button>
+    </div>  
+        
+</div>
+<hr>
+<div class="row">
+
+    <div class="column left" >
+        <div class="Image">
+            <img src="https://static.skyfood.rs/uploads/photo/photo/22/web_margarita.jpg">
+        </div>  
+
+        <div>
+            <div class="name">
+                Margherita
+            </div>
+
+            <div class="ingredients">
+                Pelat, sir, svež paradajz, origano
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="column right" >
+        <h4>Izaberite velicinu</h4>
+        <label class="container">
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>22cm - 170,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span> 33cm - 460,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>50cm - 740,00din
+        </label>
+        <form action="/action_page.php">
+            <label for="quantity">Kolicina:</label>
+            <input type="number" id="myImput" name="quantity" min="1" max="10">
+        </form>
+            <button type="button" class="btn btn-secondary">Naruci</button>
+    </div>  
+        
+</div>
+<hr>
+<div class="row">
+
+    <div class="column left" >
+        <div class="Image">
+            <img src="https://static.skyfood.rs/uploads/photo/photo/19/web_specijal.jpg">
+        </div>  
+
+        <div>
+            <div class="name">
+                King Specijal
+            </div>
+
+            <div class="ingredients">
+                Pelat, sir, šunka, pečenica, kulen, šampinjoni, masline, pavlaka, origano
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="column right" >
+        <h4>Izaberite velicinu</h4>
+        <label class="container">
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>22cm - 240,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span> 33cm - 670,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>50cm - 1060,00din
+        </label>
+        <form action="/action_page.php">
+            <label for="quantity">Kolicina:</label>
+            <input type="number" id="myImput" name="quantity" min="1" max="10">
+        </form>
+            <button type="button" class="btn btn-secondary">Naruci</button>
+    </div>  
+        
+</div>
+<hr>
+<div class="row">
+
+    <div class="column left" >
+        <div class="Image">
+            <img src="https://static.skyfood.rs/uploads/photo/photo/92/web_chicken___cheese.jpg">
+        </div>  
+
+        <div>
+            <div class="name">
+                Chicken & Cheese
+            </div>
+
+            <div class="ingredients">
+                Piletina, feta & tikvice
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="column right" >
+        <h4>Izaberite velicinu</h4>
+        <label class="container">
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>22cm - 270,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span> 33cm - 710,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>50cm - 1140,00din
+        </label>
+        <form action="/action_page.php">
+            <label for="quantity">Kolicina:</label>
+            <input type="number" id="myImput" name="quantity" min="1" max="10">
+        </form>
+            <button type="button" class="btn btn-secondary">Naruci</button>
+    </div>  
+        
+</div>
+<hr>
+<div class="row">
+
+    <div class="column left" >
+        <div class="Image">
+            <img src="https://static.skyfood.rs/uploads/photo/photo/87/web_don_ultimate.jpg">
+        </div>  
+
+        <div>
+            <div class="name">
+                Ultimate - 7 vrsta mesa
+            </div>
+
+            <div class="ingredients">
+                Pelat, sir, šunka, slanina, čajna, pečenica, kulen, suvo meso, pančeta, pavlaka, origano
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="column right" >
+        <h4>Izaberite velicinu</h4>
+        <label class="container">
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>22cm - 300,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span> 33cm - 730,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>50cm - 1240,00din
+        </label>
+        <form action="/action_page.php">
+            <label for="quantity">Kolicina:</label>
+            <input type="number" id="myImput" name="quantity" min="1" max="10">
+        </form>
+            <button type="button" class="btn btn-secondary">Naruci</button>
+    </div>  
+        
+</div>
+<hr>
+<div class="row">
+
+    <div class="column left" >
+        <div class="Image">
+            <img src="https://static.skyfood.rs/uploads/photo/photo/139/web_pizza.jpg">
+        </div>  
+
+        <div>
+            <div class="name">
+                Quattro - 4 vrsta sira & Piletina
+            </div>
+
+            <div class="ingredients">
+                Pelat, Sir, Gauda, Gorgonzola, Parmezan, Pileća Prsa, Peršun
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="column right" >
+        <h4>Izaberite velicinu</h4>
+        <label class="container">
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>22cm - 270,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span> 33cm - 710,00din
+        </label>
+        <label class="container">
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>50cm - 1160,00din
+        </label>
+        <form action="/action_page.php">
+            <label for="quantity">Kolicina:</label>
+            <input type="number" id="myImput" name="myImput" min="1" max="10">
+        </form>
+            <button href="#" type="submit" class="btn btn-secondary">Naruci</button>
+    </div>  
+        
+</div>
+<hr>
+<div class="O_nama" id="O_Nama"><b>Nasa prica</b></br> 
+    Picerija Pizza King vam nudi vrhunski izbor pica po pristupačnim cenama
+    gde ćete na jednom mestu spojiti uživanje u vrhunskoj hrani,
+    prijatnom ambijentu i profesionalnoj usluzi. </br>
+    Naše pizze se prave od najkvalitetnijih sastojaka koji garantuju odličan kvalitet.</br> 
+    Ukoliko niste imali priliku da probate naše izvrsne pice ovo je fenomenalna prilika
+    da ispravite taj propust. Ukoliko već jeste, unapred znate o čemu se radi.
+</div>
+
+<div class="boxbox">
+    <form action="/action_page.php">
+        <label for="fname">Ime</label>
+        <input type="text" id="fname" name="firstname" placeholder="Vase Ime..">
+    
+        <label for="lname">Prezime</label>
+        <input type="text" id="lname" name="lastname" placeholder="Vase Prezime..">
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"   placeholder="Unesite email" >
+        
+        <label for="subject">Komentar</label>
+        <textarea id="subject" name="subject" placeholder="Ovde napisite komentar.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<footer id="Kontakt">
+    <div class="mt-5 pt-5 pb-5 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-xs-12">
+                    <h2>Social media</h2>
+                    <p class="pr-5 text-white-50">Pratite nas na drustvenim mrezama. </br>Uskoro pocinju novogodisnje akcije</p>
+                    <ul class="social">
+                        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-xs-12 location">
+                    <h2 class="mt-lg-0 mt-sm-4">Location</h2>
+                    <p><i class="fa fa-map-marker"></i> Mice micinog 6b</p>
+                    <p><i class="fa fa-phone"></i > broj na kucu</p>
+                    <p><i class="fa fa-envelope-o"></i> imamo mail, ali vise volimo postu</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+</body>
+</html>
