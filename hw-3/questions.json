@@ -1,0 +1,112 @@
+[  
+   {
+    "numb": 1,
+    "question": "Ko je glavni lik serijala",
+    "answer": "Eren",
+    "options": [
+      "Eren",
+      "Mikasa",
+      "Edvar",
+      "Sasami"
+    ]
+  },
+    {
+    "numb": 2,
+    "question": "Koje je ime titana koji je razbio zid?",
+    "answer": "Kolosalni titan",
+    "options": [
+        "Kolosalni titan",
+        "Borbeni titan",
+        "Zver",
+        "Oklopni"
+    ]
+  },
+    {
+    "numb": 3,
+    "question": "Kako se zvao prvi titan?",
+    "answer": "Yumir",
+    "options": [
+        "Krista",
+        "Helen",
+        "Yumir",
+        "Ani"
+    ]
+  },
+    {
+    "numb": 4,
+    "question": "Koji od ponudjenih je naziv prvog zida?",
+    "answer": "Mari",
+    "options": [
+        "Rose",
+        "Mari",
+        "Sina",
+        "Sona"
+    ]
+  },
+    {
+    "numb": 5,
+    "question": "Kako se zove jedinica u kojoj se nalaze glavni junaci?",
+    "answer": "Izvidjacki korpus",
+    "options": [
+        "Vojna brigada",
+        "Borbeni korpus",
+        "Centralna jedinica",
+        "Izvidjacki korpus"
+    ]
+  },
+    {
+    "numb": 6,
+    "question": "Kako se zove Erenov otac?",
+    "answer": "Grisa Jeger"	,
+    "options": [
+        "Grisa Jeger",
+        "Gerard Jeger",
+        "Hans Jeger",
+        "Jonatan Jeger"
+    ]
+  },
+  {
+    "numb": 7,
+    "question": "Ko su glavni neprijatelji u seriji?",
+    "answer": "Titani",
+    "options": [
+        "Vukodlaci",
+        "Vampiri",
+        "Titani",
+        "Zombiji"
+    ]
+  },
+  {
+    "numb": 8,
+    "question": "Kako se zove kapetan Izvidjackog korpusa?",
+    "answer": "Ervin",
+    "options": [
+        "Edvard",
+        "Ervin",
+        "Armin",
+        "Eren"
+    ]
+  },
+  {
+    "numb": 9,
+    "question": "Od cega su napravljeni zidovi gradiva?",
+    "answer": "Od titana",
+    "options": [
+        "Od posebnog kamena",
+        "Od rude dijamanata",
+        "Od titana",
+        "Od ljudi"
+    ]
+  },
+  {
+    "numb": 10,
+    "question": "Koje je Kristino pravo ime?",
+    "answer": "Historija",
+    "options": [
+        "Kristin",
+        "Hrista",
+        "Katia",
+        "Historija"
+    ]
+  }
+]
